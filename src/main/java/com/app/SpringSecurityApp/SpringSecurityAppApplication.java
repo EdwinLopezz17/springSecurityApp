@@ -91,7 +91,6 @@ public class SpringSecurityAppApplication {
 					.roles(Set.of(roleInvited))
 					.build();
 
-
 			userRepository.saveAll(List.of(userEdwin, userZepol, userInvit));
 		};
 	}
